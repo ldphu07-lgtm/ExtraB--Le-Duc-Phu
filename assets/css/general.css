@@ -1,0 +1,23 @@
+.mainpage {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 62px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    text-decoration: none;
+    font-family: Montserrat, Arial;
+    font-weight: 500;
+}
+
+p {
+    font-family: Montserrat, Arial;
+    margin: 0;
+    color: white;
+    padding: 0;
+}

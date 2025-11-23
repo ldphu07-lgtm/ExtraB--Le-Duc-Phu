@@ -1,0 +1,56 @@
+.home-section {
+    background-color: black;
+    display: flex;
+    height: 655px;
+}
+
+.home-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    height: 255x;
+    width: 500px;
+    margin: 0px 40px 0px 40px;
+}
+
+.button-resume {
+    margin: 30px 0px 0px 40px;
+    padding: 0px -10px 0px -10px;
+    height: 48px;
+    width: 150px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(255, 37, 73);
+    font-weight: 700px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.button-resume:active {
+    background-color: rgb(253, 102, 127);
+}
+
+.home-picture {
+    display: flex;
+    flex: 1;
+    justify-content: start;
+}
+
+.phu-image {
+    object-fit: cover;
+    object-position: top;
+    height: 535px;
+    width: 500px;
+    margin-top: 120px;
+}
+
+.about-section {
+    height: 600px;
+}

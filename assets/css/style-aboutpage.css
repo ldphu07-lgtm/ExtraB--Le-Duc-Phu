@@ -1,0 +1,47 @@
+.pic-about {
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    margin: 0px 40px 0px 40px;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+}
+
+.title-about {
+    color: gray;
+    font-size: 60px;
+    opacity: 0.6;
+    padding: 0;
+    margin: 10px 0px 10px 0px;
+}
+
+.text-about {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.button-hire2 {
+    width: 65px;
+    height: 25px;
+    border-radius: 12.5px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 160px;
+    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.button-hire2:active {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
